@@ -4,72 +4,7 @@ import { useRef,useEffect } from "react";
 
 const Navbar=()=> {
   
-    // <nav className="navbar">
-    //   <div className="navbar__logo">zapier</div>
-    //   <div className="navbar__links">
-    //     <div className="dropdown">
-    //       <button className="dropbtn">Products</button>
-    //     </div>
-    //     <div className="dropdown">
-    //       <button className="dropbtn">Solutions</button>
-    //     </div>
-    //     <div className="dropdown">
-    //       <button className="dropbtn">Resources</button>
-    //     </div>
-    //     <a href="#" className="navbar__link">Enterprise</a>
-    //     <a href="#" className="navbar__link">Pricing</a>
-    //   </div>
-    //   <div className="navbar__actions">
-    //     <a href="#" className="navbar__link">Explore apps</a>
-    //     <a href="#" className="navbar__link">Contact sales</a>
-    //     <a href="#" className="navbar__link">Log in</a>
-    //     <button className="signup-btn">Sign up</button>
-    //   </div>
-    // </nav>
-
-    // <nav className="navbar">
-    //   <div className="navbar__logo">zapier</div>
-
-    //   <div className="navbar__links">
-    //     <div className="dropdown">
-    //       <button className="dropbtn">Products ▾</button>
-    //       <div className="dropdown-content">
-    //         <a href="#">App Integrations</a>
-    //         <a href="#">Zap Editor</a>
-    //         <a href="#">AI Features</a>
-    //       </div>
-    //     </div>
-
-    //     <div className="dropdown">
-    //       <button className="dropbtn">Solutions ▾</button>
-    //       <div className="dropdown-content">
-    //         <a href="#">Marketing</a>
-    //         <a href="#">Sales</a>
-    //         <a href="#">Customer Support</a>
-    //       </div>
-    //     </div>
-
-    //     <div className="dropdown">
-    //       <button className="dropbtn">Resources ▾</button>
-    //       <div className="dropdown-content">
-    //         <a href="#">Blog</a>
-    //         <a href="#">Help Center</a>
-    //         <a href="#">Guides</a>
-    //       </div>
-    //     </div>
-
-    //     <a href="#" className="navbar__link">Enterprise</a>
-    //     <a href="#" className="navbar__link">Pricing</a>
-    //   </div>
-
-    //   <div className="navbar__actions">
-    //     <a href="#" className="navbar__link">Explore apps</a>
-    //     <a href="#" className="navbar__link">Contact sales</a>
-    //     <a href="#" className="navbar__link">Log in</a>
-    //     <button className="signup-btn">Sign up</button>
-    //   </div>
-    // </nav>
-
+    
   
     const templates = [
         {
@@ -347,6 +282,45 @@ const Navbar=()=> {
         ))}
       </div>
     </div>
+
+
+
+
+    <section className="automation-section">
+      <div className="content-wrapper">
+        <div className="text-content">
+          <p className="label">ENTERPRISE</p>
+          <h2 className="heading">Automation for every team, approved by IT</h2>
+          <p className="subtext">
+            Progress stalls when teams have to wait for technical help. Zapier empowers everyone
+            in your business to safely automate their work in minutes—not months.
+          </p>
+          <div className="buttons">
+            <button className="primary-btn">Meet Zapier for Enterprise</button>
+            <button className="secondary-btn">Contact Sales</button>
+          </div>
+        </div>
+
+        <div className="quote-section">
+          <div className="quote">
+            <div className="logo-text">
+              <span className="logo">R</span>
+              <span className="company">remote</span>
+            </div>
+            <p className="quote-text">
+              "Just last month, we had 1,100 help desk requests from our 1,700 employees.
+              Normally, that many requests would overwhelm our team of three, but through
+              our help desk workflows in Zapier, we resolved them easily. Our team of three
+              is able to perform like a team of 10."
+            </p>
+            <p className="author">—Marcus Saito<br />Director of IT, Remote.com</p>
+          </div>
+          <div className="analytics-image">
+            <img src="/path-to-your-screenshot.png" alt="Analytics dashboard" />
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
